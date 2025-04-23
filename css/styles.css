@@ -313,12 +313,12 @@
 
     .our_team_list_icons {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 24px;
     }
 
     .our_team_list_icons_items {
-        justify-content: center;
-        gap: 24px;
+        
     }
 
     .our_team_list_icons_link {
