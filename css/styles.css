@@ -325,14 +325,23 @@
         border-radius: 50%;
         width: 40px;
         height: 40px;
-        display: inline-block;
         background-color: #4D5AE5;
-        align-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+    
+    .our_team_list_icons_link:hover {
+        background-color: #404bbf;
+    }
+
+   .our_team_list_icons_link:focus {
+         background-color: #404bbf;
+        }
 
     .our_team_svg {
         margin: 0 auto;
-        fill: #fff;
+        fill: #f4f4fd;
     }
 
     .our_portfolio {
